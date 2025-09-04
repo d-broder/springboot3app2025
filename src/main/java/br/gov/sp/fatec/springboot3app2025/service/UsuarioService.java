@@ -12,7 +12,7 @@ import br.gov.sp.fatec.springboot3app2025.entity.Usuario;
 import br.gov.sp.fatec.springboot3app2025.repository.UsuarioRepository;
 
 @Service
-public class UsuarioService {
+public class UsuarioService implements IUsuarioService {
     @Autowired
     private UsuarioRepository usuarioRepo;
 
